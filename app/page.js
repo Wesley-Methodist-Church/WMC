@@ -5,7 +5,6 @@ import {
   Footer, 
   History, 
   Jumbotron, 
-  Navbar, 
   Prayer, 
   Values, 
   VisionMission 
@@ -13,8 +12,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="p-4 flex flex-col gap-12">
-      <Navbar/>
+    <div className="flex flex-col gap-12 mt-16">
       <Jumbotron/>
       <About/>
       <Values/>

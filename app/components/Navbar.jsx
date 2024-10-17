@@ -1,79 +1,57 @@
-/**
- * Import Modules
- */
+// use client because we use state
 "use client";
 
-/**
- * Import React and Next.js
- */
+// import modules
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
-/**
- * Navbar Components
- *
- * @returns {JSX.Element}
- * @constructor
- */
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const pathname = usePathname();
+  const pathname = usePathname()
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
 
-  const isActive = (href) => pathname === href;
-
   return (
     <div className="fixed top-0 left-0 right-0 z-10 text-white navbar bg-zinc-900">
       <div className="navbar-start">
         <Link href="/" className="text-xl btn btn-ghost">
-          daisyUI
+        <Image 
+            src={`./logo.svg`} 
+            alt='logo' 
+            height={60}
+            width={120}
+        />
         </Link>
       </div>
 
-      <div className="navbar-end">
-        <ul className="hidden px-1 menu menu-horizontal md:flex">
+      <div className="navbar-end md:mr-8">
+        <ul className="hidden px-1 gap-12 md:flex">
           <li>
-            <Link
-              href="/"
-              className={`${
-                isActive("/") ? "bg-red-600 text-white" : ""
-              } hover:bg-red-600`}
-            >
+            <Link href="/" className="flex flex-col items-center">
               Home
+              {pathname === '/' && <div className="border border-slate-400 w-12"></div>}
             </Link>
           </li>
           <li>
-            <Link
-              href="/activities"
-              className={`${
-                isActive("/activities") ? "bg-red-600" : ""
-              } hover:bg-red-600`}
-            >
+            <Link href="/Activities">
               Activities
+              {pathname === "/Activities" && <div className="border border-slate-400 w-16"></div>}
             </Link>
           </li>
           <li>
-            <Link
-              href="/committee"
-              className={`${
-                isActive("/committee") ? "bg-red-600" : ""
-              } hover:bg-red-600`}
-            >
+            <Link href="/Committee">
               Committee
+              {pathname === '/Committee' && <div className="border border-slate-400 w-22"></div>}
             </Link>
           </li>
           <li>
-            <Link
-              href="/donation"
-              className={`${
-                isActive("/donation") ? "bg-red-600" : ""
-              } hover:bg-red-600`}
-            >
+            <Link href="/Donation">
               Donation
+              {pathname === '/Donation' && <div className="border border-slate-400 w-18"></div>}
             </Link>
           </li>
         </ul>
@@ -101,42 +79,22 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-zinc-900 text-white rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
             >
               <li>
-                <Link
-                  href="/"
-                  className={`${
-                    isActive("/") ? "bg-red-600 text-white" : ""
-                  } hover:bg-red-600`}
-                >
+                <Link href="/">
                   Home
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/activities"
-                  className={`${
-                    isActive("/activities") ? "bg-red-600" : ""
-                  } hover:bg-red-600`}
-                >
+                <Link href="/Activities">
                   Activities
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/committee"
-                  className={`${
-                    isActive("/committee") ? "bg-red-600" : ""
-                  } hover:bg-red-600`}
-                >
+                <Link href="/Committee">
                   Committee
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/donation"
-                  className={`${
-                    isActive("/donation") ? "bg-red-600" : ""
-                  } hover:bg-red-600`}
-                >
+                <Link href="/Donation">
                   Donation
                 </Link>
               </li>
