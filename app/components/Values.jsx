@@ -13,8 +13,8 @@ const Values = () => {
             ?
             <>
               <div className='flex-1 flex flex-col justify-center' style={{ minHeight: '150px' }}> {/* Adjust minHeight as needed */}
-                <h3 className='text-2xl font-semibold my-2'>{value.title}</h3>
-                <p>{value.description} <span className='w-96 h-4 inline-block'></span></p>
+                <h3 className='text-2xl md:text-3xl mb-4 font-semibold my-2'>{value.title}</h3>
+                <p className='text-lg'>{value.description} <span className='w-96 h-4 inline-block'></span></p>
               </div>
               <div className='flex-1 relative aspect-[4/3]'>
                 <Image 
@@ -38,16 +38,16 @@ const Values = () => {
                 />
               </div>
               <div className='flex-1 flex flex-col justify-center' style={{ minHeight: '150px' }}> {/* Adjust minHeight as needed */}
-                <h3 className='text-2xl font-semibold my-2'>{value.title}</h3>
-                <p>{value.description} <span className='w-96 h-4 inline-block'></span></p>
+                <h3 className='text-2xl md:text-3xl mb-4 font-semibold my-2'>{value.title}</h3>
+                <p className='text-lg'>{value.description} <span className='w-96 h-4 inline-block'></span></p>
               </div>
             </>
           }
         </div>
         <div className='md:hidden flex flex-col'>
           <div className='w-full' style={{ minHeight: '150px' }}> {/* Adjust minHeight as needed */}
-            <h3 className='text-2xl font-semibold my-2'>{value.title}</h3>
-            <p>{value.description} <span className='w-72 h-4 inline-block'></span></p>
+            <h3 className='text-2xl md:text-3xl mb-4 font-semibold my-2'>{value.title}</h3>
+            <p className='text-lg'>{value.description} <span className='w-72 h-4 inline-block'></span></p>
           </div>
           <div className='relative aspect-[4/3]'>
             <Image 
@@ -88,7 +88,7 @@ const Values = () => {
 
   return (
     <div className='my-5 flex items-center flex-col px-10 md:px-52'>
-      <h2 className='text-4xl font-semibold mb-16'>Our Core Values</h2>
+      <h2 className='text-4xl md:text-5xl font-semibold mb-16 text-center'>Our Core Values</h2>
       {
         values.map((value, index) => (
           section(value, index)
