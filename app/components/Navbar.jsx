@@ -1,4 +1,4 @@
-// use client because we use state
+// using 'use client' to enable client-side rendering for stateful components
 "use client";
 
 // import modules
@@ -7,55 +7,60 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
+// navigation bar component
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-10 text-white navbar bg-zinc-900">
+    <div className="fixed top-0 left-0 right-0 z-10 text-white navbar bg-zinc-900 py-4">
       <div className="navbar-start">
         <Link href="/" className="text-xl btn btn-ghost">
-        <Image 
-            src={`./logo.svg`} 
-            alt='logo' 
-            height={60}
-            width={120}
-        />
+          <Image src={`./logo.svg`} alt="logo" height={50} width={130} />
         </Link>
       </div>
 
       <div className="navbar-end md:mr-8">
-        <ul className="hidden px-1 gap-12 md:flex">
+        <ul className="hidden gap-12 px-1 md:flex">
           <li>
             <Link href="/" className="flex flex-col items-center">
               Home
-              {pathname === '/' && <div className="border border-slate-400 w-12"></div>}
+              {pathname === "/" && (
+                <div className="w-12 border border-slate-400"></div>
+              )}
             </Link>
           </li>
           <li>
             <Link href="/Activities">
               Activities
-              {pathname === "/Activities" && <div className="border border-slate-400 w-16"></div>}
+              {pathname === "/Activities" && (
+                <div className="w-16 border border-slate-400"></div>
+              )}
             </Link>
           </li>
           <li>
             <Link href="/Committee">
               Committee
-              {pathname === '/Committee' && <div className="border border-slate-400 w-22"></div>}
+              {pathname === "/Committee" && (
+                <div className="border border-slate-400 w-22"></div>
+              )}
             </Link>
           </li>
           <li>
             <Link href="/Donation">
               Donation
-              {pathname === '/Donation' && <div className="border border-slate-400 w-18"></div>}
+              {pathname === "/Donation" && (
+                <div className="border border-slate-400 w-18"></div>
+              )}
             </Link>
           </li>
         </ul>
 
+        {/* Mobile Version */}
         <div className="dropdown" onClick={handleToggle}>
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -79,24 +84,16 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-zinc-900 text-white rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
             >
               <li>
-                <Link href="/">
-                  Home
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/Activities">
-                  Activities
-                </Link>
+                <Link href="/Activities">Activities</Link>
               </li>
               <li>
-                <Link href="/Committee">
-                  Committee
-                </Link>
+                <Link href="/Committee">Committee</Link>
               </li>
               <li>
-                <Link href="/Donation">
-                  Donation
-                </Link>
+                <Link href="/Donation">Donation</Link>
               </li>
             </ul>
           )}
