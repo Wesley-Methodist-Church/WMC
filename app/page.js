@@ -24,6 +24,7 @@ export default function Home() {
       <History />
       <Gap />
       <Prayer />
+      <Gap />
     </div>
   );
 }

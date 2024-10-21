@@ -1,13 +1,28 @@
 // import modules
-import React from 'react'
+import React from "react";
+import Image from "next/image";
 
 // prayer component
 const Prayer = () => {
   return (
-    <div>
-      prayer
-    </div>
-  )
-}
+    <div className="relative flex flex-col text-white items-start justify-center min-h-80">
+      <div className="absolute inset-0 bg-[url('/prayer.png')] bg-cover bg-bottom sm:bg-left "></div>
 
-export default Prayer
+      <div className="relative flex flex-col gap-12 px-12">
+        <h1 className="text-white font-bold text-4xl">
+          Prayer Request / Counseling Personal
+        </h1>
+
+        <a
+          href="#"
+          className="bg-white text-red-600 rounded-xl py-4 px-8 w-fit"
+        >
+          Make A Request
+        </a>
+      </div>
+      <div></div>
+    </div>
+  );
+};
+
+export default Prayer;
