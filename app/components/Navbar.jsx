@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end md:mr-8">
-        <ul className="hidden gap-12 px-1 md:flex">
+        <ul className="hidden gap-12 px-1 lg:flex">
           <li>
             <Link href="/" className="flex flex-col items-center">
               Home
@@ -81,7 +81,7 @@ const Navbar = () => {
           {isOpen && (
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-zinc-900 text-white rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
+              className="menu menu-sm dropdown-content bg-zinc-900 text-white rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 mt-8"
             >
               <li>
                 <Link href="/">Home</Link>

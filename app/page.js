@@ -12,7 +12,7 @@ import {
 // Home Page
 export default function Home() {
   return (
-    <div className="flex flex-col mt-16">
+    <div className="flex flex-col mt-20">
       <Jumbotron />
       <Gap />
       <About />

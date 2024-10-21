@@ -53,7 +53,7 @@ const Values = () => {
             <h3 className="my-2 mb-4 text-2xl font-semibold md:text-3xl">
               {value.title}
             </h3>
-            <p className="text-lg">
+            <p>
               {value.description}{" "}
               <span className="inline-block h-4 w-72"></span>
             </p>

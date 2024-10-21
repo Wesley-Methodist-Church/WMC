@@ -6,7 +6,7 @@ const Jumbotron = () => {
   return (
     <div className="relative flex flex-col text-white items-center justify-center min-h-[92vh]">
       {/* Background image */}
-      <div className="absolute inset-0 bg-[url('/jumbotron.jpeg')] bg-cover bg-center"></div>
+      <div className="absolute inset-0 bg-[url('/jumbotron.svg')] bg-cover bg-center"></div>
 
       {/* Overlay to darken the background */}
       <div className="absolute inset-0 bg-black opacity-50"></div>

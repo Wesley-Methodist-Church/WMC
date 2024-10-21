@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="box-border flex flex-col items-center px-10 my-5 md:px-52">
       <h2 className="mb-16 text-4xl font-semibold md:text-5xl">About Us</h2>
-      <p className="text-lg text-center">
+      <p className=",d:text-lg text-center">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores cum
         earum exercitationem dolore. Illum, accusantium porro animi iste quaerat
         asperiores. Praesentium voluptas doloremque, quis accusamus deserunt

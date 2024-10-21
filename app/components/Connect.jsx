@@ -7,15 +7,15 @@ const Connect = () => {
   return (
     <div className="relative flex flex-col items-center justify-center py-20">
       {/* Background image */}
-      <div className="absolute inset-0 bg-[url('/jumbotron.jpeg')] bg-cover bg-center"></div>
+      <div className="absolute inset-0 bg-[url('/jumbotron.svg')] bg-cover bg-center"></div>
 
       {/* Overlay to darken the background */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* Content */}
-      <div className="relative w-4/5 gap-4 p-8 overflow-hidden bg-white lg:flex lg:p-16 lg:py-28 xl:py-32 rounded-xl md:w-2/3">
+      <div className="relative w-4/5 gap-4 p-8 overflow-hidden bg-white lg:flex lg:p-16 lg:py-20 rounded-xl md:w-2/3">
         <div className="flex-1">
-          <h3 className="mb-8 text-2xl font-bold md:text-3xl ">
+          <h3 className="mb-8 text-2xl font-bold md:text-3xl">
             Connect With Us!
           </h3>
           <p className="text-sm">
@@ -34,7 +34,7 @@ const Connect = () => {
               </a>
             </div>
             <div className="flex items-center gap-4">
-              <FaYoutube className="mt-2" />
+              <FaYoutube className="mt-2"/>
               <a
                 href="https://www.youtube.com/@WesleyMethodistChurchMedan"
                 target="_blank"
