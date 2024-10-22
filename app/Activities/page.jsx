@@ -13,10 +13,10 @@ const page = () => {
       <div className="flex flex-col items-center justify-center my-20 md:my-32 gap-10">
         <h2 className="text-4xl md:text-5xl font-bold md:mb-10">Our Activities</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 md:p-12 lg:w-3/4">
-          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"}/>
-          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"}/>
-          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"}/>
-          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"}/>
+          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"} link={"activities/asda"}/>
+          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"} link={"activities/asda"}/>
+          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"} link={"activities/asda"}/>
+          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"} link={"activities/asda"}/>
         </div>
       </div>
       <div className="my-32 gap-10">

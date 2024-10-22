@@ -35,25 +35,25 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/Activities">
+            <Link href="/activities">
               Activities
-              {pathname === "/Activities" && (
+              {pathname === "/activities" && (
                 <div className="w-16 border border-slate-400"></div>
               )}
             </Link>
           </li>
           <li>
-            <Link href="/Committee">
+            <Link href="/committee">
               Committee
-              {pathname === "/Committee" && (
+              {pathname === "/committee" && (
                 <div className="border border-slate-400 w-22"></div>
               )}
             </Link>
           </li>
           <li>
-            <Link href="/Donation">
+            <Link href="/donation">
               Donation
-              {pathname === "/Donation" && (
+              {pathname === "/donation" && (
                 <div className="border border-slate-400 w-18"></div>
               )}
             </Link>
@@ -87,13 +87,13 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/Activities">Activities</Link>
+                <Link href="/activities">Activities</Link>
               </li>
               <li>
-                <Link href="/Committee">Committee</Link>
+                <Link href="/committee">Committee</Link>
               </li>
               <li>
-                <Link href="/Donation">Donation</Link>
+                <Link href="/donation">Donation</Link>
               </li>
             </ul>
           )}

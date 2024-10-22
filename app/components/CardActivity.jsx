@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Link from 'next/link';
 
 const CardActivity = ({title, date, place, link}) => {
   return (
@@ -17,7 +18,18 @@ const CardActivity = ({title, date, place, link}) => {
               <p className='font-semibold'>{date}</p>
               <p className='font-semibold'>{place}</p>
             </div>
-            <button className='btn w-32 flex btn-red items-center justify-center bg-red-700 hover:bg-red-600 text-white'>More Info <FaLongArrowAltRight color='white'/></button>
+            <Link 
+              href={{
+                pathname: link,
+                query: {
+                    // id: episode.itunes.episode,
+                    // title: episode.title
+                }
+              }}
+              className='btn w-32 flex btn-red items-center justify-center bg-red-700 hover:bg-red-600 text-white'
+              >
+                More Info <FaLongArrowAltRight color='white'/>
+            </Link>
         </div>
     </div>
   )
