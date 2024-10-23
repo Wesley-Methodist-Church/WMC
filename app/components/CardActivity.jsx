@@ -2,7 +2,7 @@ import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Link from 'next/link';
 
-const CardActivity = ({title, date, place, link}) => {
+const CardActivity = ({title, date, place, link, description, time, room}) => {
   return (
     <div className="card bg-base-100 shadow-xl">
         <figure className='border aspect-[4/3]'>
@@ -22,8 +22,12 @@ const CardActivity = ({title, date, place, link}) => {
               href={{
                 pathname: link,
                 query: {
-                    // id: episode.itunes.episode,
-                    // title: episode.title
+                    title, 
+                    date, 
+                    place, 
+                    description, 
+                    time, 
+                    room
                 }
               }}
               className='btn w-32 flex btn-red items-center justify-center bg-red-700 hover:bg-red-600 text-white'

@@ -1,9 +1,43 @@
 // import modules
-import React from "react";
+import React, { act } from "react";
 import CardActivity from "../components/CardActivity";
 
 // Donation Page
-const page = () => {
+const Page = () => {
+  const activities = [
+    {
+      title: "Sunday School", 
+      date: "25 Desember 2024",
+      place: "Fasilkom-TI USU", 
+      time: "09:00 - 10:30 WIB", 
+      room: "balaba room", 
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, id asperiores architecto ea mollitia hic doloribus? Incidunt ipsam, quo minus consequuntur reprehenderit enim culpa ad eum ab inventore, natus sequi, explicabo fuga omnis dicta quis harum odio voluptatibus praesentium et quaerat. Quam illo labore sed vero ab beatae repellendus quod amet ducimus nihil autem, similique dicta fugiat modi necessitatibus commodi quidem sunt aperiam illum, deserunt cupiditate accusamus perferendis. Aut, consequatur facere sed ipsa dignissimos nesciunt nisi minus a. Voluptates a eveniet ipsum cupiditate expedita reiciendis ducimus qui, alias dolor itaque amet unde sapiente voluptatem quibusdam numquam veritatis, commodi harum magni."
+    },
+    {
+      title: "Weekly Podcast", 
+      date: "25 Desember 2024",
+      time: "09:00 - 10:30 WIB", 
+      room: "balaba room", 
+      place: "Fasilkom-TI USU", 
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, id asperiores architecto ea mollitia hic doloribus? Incidunt ipsam, quo minus consequuntur reprehenderit enim culpa ad eum ab inventore, natus sequi, explicabo fuga omnis dicta quis harum odio voluptatibus praesentium et quaerat. Quam illo labore sed vero ab beatae repellendus quod amet ducimus nihil autem, similique dicta fugiat modi necessitatibus commodi quidem sunt aperiam illum, deserunt cupiditate accusamus perferendis. Aut, consequatur facere sed ipsa dignissimos nesciunt nisi minus a. Voluptates a eveniet ipsum cupiditate expedita reiciendis ducimus qui, alias dolor itaque amet unde sapiente voluptatem quibusdam numquam veritatis, commodi harum magni."
+    },
+    {
+      title: "Christmas", 
+      date: "25 Desember 2024",
+      time: "09:00 - 10:30 WIB", 
+      room: "balaba room", 
+      place: "Fasilkom-TI USU", 
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, id asperiores architecto ea mollitia hic doloribus? Incidunt ipsam, quo minus consequuntur reprehenderit enim culpa ad eum ab inventore, natus sequi, explicabo fuga omnis dicta quis harum odio voluptatibus praesentium et quaerat. Quam illo labore sed vero ab beatae repellendus quod amet ducimus nihil autem, similique dicta fugiat modi necessitatibus commodi quidem sunt aperiam illum, deserunt cupiditate accusamus perferendis. Aut, consequatur facere sed ipsa dignissimos nesciunt nisi minus a. Voluptates a eveniet ipsum cupiditate expedita reiciendis ducimus qui, alias dolor itaque amet unde sapiente voluptatem quibusdam numquam veritatis, commodi harum magni."
+    },
+    {
+      title: "Passover", 
+      date: "25 February 2024",
+      time: "09:00 - 10:30 WIB", 
+      room: "balaba room", 
+      place: "Fasilkom-TI USU", 
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, id asperiores architecto ea mollitia hic doloribus? Incidunt ipsam, quo minus consequuntur reprehenderit enim culpa ad eum ab inventore, natus sequi, explicabo fuga omnis dicta quis harum odio voluptatibus praesentium et quaerat. Quam illo labore sed vero ab beatae repellendus quod amet ducimus nihil autem, similique dicta fugiat modi necessitatibus commodi quidem sunt aperiam illum, deserunt cupiditate accusamus perferendis. Aut, consequatur facere sed ipsa dignissimos nesciunt nisi minus a. Voluptates a eveniet ipsum cupiditate expedita reiciendis ducimus qui, alias dolor itaque amet unde sapiente voluptatem quibusdam numquam veritatis, commodi harum magni."
+    },
+  ]
   return (
     <div className="mt-20">
       <div className="bg-[url('/activity.svg')] bg-cover h-72 md:h-96 lg:h-[420px] flex flex-col justify-center px-8 md:px-20">
@@ -13,10 +47,22 @@ const page = () => {
       <div className="flex flex-col items-center justify-center my-20 md:my-32 gap-10">
         <h2 className="text-4xl md:text-5xl font-bold md:mb-10">Our Activities</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 md:p-12 lg:w-3/4">
-          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"} link={"activities/asda"}/>
-          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"} link={"activities/asda"}/>
-          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"} link={"activities/asda"}/>
-          <CardActivity title={"Sunday School"} date={"25 Desember 2023"} place={"Fasilkom-TI USU"} link={"activities/asda"}/>
+        {
+          activities.map((activity, index) => {
+            return (
+              <CardActivity 
+                key={index} 
+                title={activity.title} 
+                date={activity.date} 
+                time={activity.time}
+                room={activity.room}
+                place={activity.place} 
+                description={activity.description}
+                link={`activities/${activity.title}`} 
+              />
+            )
+          })
+        }
         </div>
       </div>
       <div className="my-32 gap-10">
@@ -38,4 +84,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
