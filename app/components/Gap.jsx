@@ -1,7 +1,7 @@
-// import modules
+// Import modules
 import React from "react";
 
-// gap component
+// Gap component
 const Gap = () => {
   return <div className="my-8"></div>;
 };

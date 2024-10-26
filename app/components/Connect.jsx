@@ -1,8 +1,8 @@
-// import modules
+// Import modules
 import React from "react";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 
-// contact component
+// Contact component
 const Connect = () => {
   return (
     <div className="relative flex flex-col items-center justify-center py-20">
@@ -34,7 +34,7 @@ const Connect = () => {
               </a>
             </div>
             <div className="flex items-center gap-4">
-              <FaYoutube className="mt-2"/>
+              <FaYoutube className="mt-2" />
               <a
                 href="https://www.youtube.com/@WesleyMethodistChurchMedan"
                 target="_blank"

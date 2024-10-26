@@ -1,4 +1,4 @@
-// importing components from './components/index.jsx' for centralized and easy access
+// Importing components from './components/index.jsx' for centralized and easy access
 import {
   About,
   History,

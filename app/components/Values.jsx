@@ -1,12 +1,13 @@
-// import modules
+// Import modules
 import React from "react";
 import Image from "next/image";
 
-// our core values component
+// Our core values component
 const Values = () => {
   const section = (value, index) => {
     return (
       <div className="flex w-full mb-16">
+        {/* Desktop Version */}
         <div className="hidden gap-8 md:grid md:grid-cols-2">
           {index % 2 === 0 ? (
             <>

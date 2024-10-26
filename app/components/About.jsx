@@ -1,7 +1,7 @@
-// import modules
+// Import modules
 import React from "react";
 
-// about component
+// About component
 const About = () => {
   return (
     <div className="box-border flex flex-col items-center px-10 my-5 md:px-52">

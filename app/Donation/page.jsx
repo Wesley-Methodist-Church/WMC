@@ -1,4 +1,4 @@
-// import modules
+// Import modules
 import React from "react";
 import Image from "next/image";
 
@@ -6,7 +6,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <div className="mt-16">
-      <div className="flex flex-col items-center justify-center my-32 gap-10">
+      <div className="flex flex-col items-center justify-center gap-10 my-32">
         <h2 className="text-5xl font-bold">Help Us Grow</h2>
         <Image src="./barcode.svg" width={350} height={350} alt={"QRIS"} />
         <div className="flex flex-col gap-4">

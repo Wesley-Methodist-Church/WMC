@@ -1,7 +1,7 @@
-// import modules
+// Import modules
 import React from "react";
 
-// jumbotron component
+// Jumbotron component
 const Jumbotron = () => {
   return (
     <div className="relative flex flex-col text-white items-center justify-center min-h-[92vh]">

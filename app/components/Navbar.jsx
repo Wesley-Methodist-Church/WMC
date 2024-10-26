@@ -1,13 +1,13 @@
-// using 'use client' to enable client-side rendering for stateful components
+// Using 'use client' to enable client-side rendering for stateful components
 "use client";
 
-// import modules
+// Import modules
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
-// navigation bar component
+// Navigation bar component
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-10 text-white navbar bg-zinc-900 py-4">
+    <div className="fixed top-0 left-0 right-0 z-10 py-4 text-white navbar bg-zinc-900">
       <div className="navbar-start">
         <Link href="/" className="text-xl btn btn-ghost">
           <Image src={`./logo.svg`} alt="logo" height={50} width={130} />
@@ -25,6 +25,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end md:mr-8">
+        {/* Desktop Version */}
         <ul className="hidden gap-12 px-1 lg:flex">
           <li>
             <Link href="/" className="flex flex-col items-center">
@@ -81,7 +82,7 @@ const Navbar = () => {
           {isOpen && (
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-zinc-900 text-white rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 mt-8"
+              className="menu menu-sm dropdown-content bg-zinc-900 text-white rounded-box z-[1] w-52 p-2 shadow right-0 mt-8"
             >
               <li>
                 <Link href="/">Home</Link>

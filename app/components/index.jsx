@@ -1,4 +1,4 @@
-// exporting components for easy import and reuse across multiple pages
+// Exporting components for easy import and reuse across multiple pages
 export { default as About } from "./About";
 export { default as Connect } from "./Connect";
 export { default as Footer } from "./Footer";

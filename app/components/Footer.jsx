@@ -1,12 +1,12 @@
-// import modules
+// Import modules
 import React from "react";
 import Image from "next/image";
 
-// import icons
+// Import icons
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
-// footer component
+// Footer component
 const Footer = () => {
   return (
     <div className="flex flex-col gap-4 p-12 text-white bg-zinc-900">
