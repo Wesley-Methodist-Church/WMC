@@ -5,6 +5,7 @@ import Link from "next/link";
 
 // Activity card component
 const CardActivity = ({
+  image,
   title,
   date,
   place,
@@ -16,7 +17,7 @@ const CardActivity = ({
   return (
     <div className="shadow-xl card bg-base-100">
       <figure className="border aspect-[4/3]">
-        <img src="./barcode.svg" alt="Shoes" className="w-full" />
+        <img src={image} alt="Shoes" className="w-full" />
       </figure>
       <div className="p-8 card-body">
         <h2 className="text-2xl card-title">{title}</h2>
@@ -28,6 +29,7 @@ const CardActivity = ({
           href={{
             pathname: link,
             query: {
+              image,
               title,
               date,
               place,
