@@ -39,7 +39,7 @@ const page = () => {
 
   return (
     <div className="mt-20">
-      <div className="flex flex-col items-center justify-center gap-10 my-32">
+      <div className="flex flex-col items-center justify-center gap-20 my-32">
         <h2 className="text-5xl font-bold text-center">
           Pastoral and Board Members
         </h2>
