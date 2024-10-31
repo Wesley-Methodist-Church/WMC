@@ -15,8 +15,8 @@ export default function Home() {
     <div className="flex flex-col mt-20">
       <Jumbotron />
       <Gap />
-      <About />
-      <Gap />
+      {/* <About />
+      <Gap /> */}
       <Values />
       <Gap />
       <VisionMission />
