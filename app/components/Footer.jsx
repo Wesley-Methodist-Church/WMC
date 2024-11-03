@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="flex flex-col flex-1 gap-2">
           <p>+61 455 8407</p>
           <p>
-            Jl. Sultan Agung No.0, Petisah Tengah, Kec. Medan Petisah, Kota
+            Jl. Sultan Agung No.9, Petisah Tengah, Kec. Medan Petisah, Kota
             Medan, Sumatera Utara 20111, Indonesia
           </p>
           <a href="mailto:wesleymedan@gmail.com">wesleymedan@gmail.com</a>

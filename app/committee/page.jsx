@@ -49,7 +49,8 @@ const page = () => {
       image: "./avatar.jpg",
       name: "Mr. Sunaryo Sitopu",
       position: "Secretary",
-    },{
+    },
+    {
       image: "./avatar.jpg",
       name: "Mrs. Juliana Himawan",
       position: "Vice Secretary",

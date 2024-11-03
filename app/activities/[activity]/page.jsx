@@ -24,13 +24,8 @@ const Page = () => {
   return (
     <div className="mt-20">
       <div
-        style={{
-          backgroundImage: `url('${image}')`,
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-      }}
-        className="bg-cover h-72 md:h-96 lg:h-[420px] flex flex-col justify-end py-20 px-8 md:px-20"
+        className="h-72 md:h-96 lg:h-[420px] flex flex-col justify-end py-20 px-8 md:px-20 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${image})` }}
       >
         <h2 className="text-4xl font-bold text-white md:text-5xl">{title}</h2>
       </div>

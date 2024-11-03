@@ -4,7 +4,7 @@ import React from "react";
 // Commitee card component
 const CardMember = ({ image, name, position }) => {
   return (
-    <div className="shadow bg-base-100 border">
+    <div className="border shadow bg-base-100">
       <figure>
         <img src={image} alt="Shoes" className="w-full aspect-[3/4]" />
       </figure>

@@ -118,29 +118,41 @@ const History = () => {
       </h2>
       <div className="flex flex-col items-center gap-4 md:flex-row justify-content-center md:gap-10">
         <div className="flex flex-col flex-1 gap-4 md:gap-10">
-          <h3 className="text-2xl md:text-3xl font-semibold">
+          <h3 className="text-2xl font-semibold md:text-3xl">
             {curHistoryIndex + 1}. {histories[curHistoryIndex].period}
           </h3>
           <div className="flex flex-col gap-4">
-            {histories[curHistoryIndex].desc.split('||').map(paragraph => (
-              <p className={`${paragraph.startsWith("quote") && "italic px-6"} md:text-lg text-justify`}>
+            {histories[curHistoryIndex].desc.split("||").map((paragraph) => (
+              <p
+                className={`${
+                  paragraph.startsWith("quote") && "italic px-6"
+                } md:text-lg text-justify`}
+              >
                 {paragraph.startsWith("quote") && '" '}
-                {
-                  paragraph.startsWith("quote")
-                  ?
-                  paragraph.slice(5, paragraph.length - 1)
-                  :
-                  paragraph
-                }
+                {paragraph.startsWith("quote")
+                  ? paragraph.slice(5, paragraph.length - 1)
+                  : paragraph}
                 {paragraph.startsWith("quote") && '" '}
               </p>
             ))}
           </div>
           <div className="flex gap-4 mt-8 md:mt-0">
-            <button onClick={prevHistory} className={`p-4 ${curHistoryIndex == 0 ? "bg-gray-400" : "bg-red-700"} rounded`}>
+            <button
+              onClick={prevHistory}
+              className={`p-4 ${
+                curHistoryIndex == 0 ? "bg-gray-400" : "bg-red-700"
+              } rounded`}
+            >
               <IoArrowBackOutline color="white" />
             </button>
-            <button onClick={nextHistory} className={`p-4 ${curHistoryIndex == (histories.length - 1) ? "bg-gray-400" : "bg-red-700"} rounded`}>
+            <button
+              onClick={nextHistory}
+              className={`p-4 ${
+                curHistoryIndex == histories.length - 1
+                  ? "bg-gray-400"
+                  : "bg-red-700"
+              } rounded`}
+            >
               <IoArrowForward color="white" />
             </button>
           </div>

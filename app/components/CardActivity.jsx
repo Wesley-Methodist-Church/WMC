@@ -13,13 +13,13 @@ const CardActivity = ({
   description,
   time,
   room,
-  contact, 
-  person
+  contact,
+  person,
 }) => {
   return (
     <div className="shadow-xl card bg-base-100">
       <figure className="border aspect-[4/3]">
-        <img src={image} alt="Shoes" className="w-full" />
+        <img src={image} alt="Activity Image" className="w-full" />
       </figure>
       <div className="p-8 card-body">
         <h2 className="text-2xl card-title">{title}</h2>
@@ -38,8 +38,8 @@ const CardActivity = ({
               description,
               time,
               room,
-              contact, 
-              person
+              contact,
+              person,
             },
           }}
           className="flex items-center justify-center w-32 text-white bg-red-700 btn btn-red hover:bg-red-600"

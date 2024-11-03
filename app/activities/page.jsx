@@ -1,5 +1,5 @@
 // Import modules
-import React, { act } from "react";
+import React from "react";
 import CardActivity from "../components/CardActivity";
 
 // Donation Page
@@ -50,11 +50,11 @@ const Page = () => {
 
       The Word of God actively provides illumination, insight, direction, and guidance for our pilgrimage through a dark and sinful world. If we admit the significance of God's Word, then we should invest out time to read, to study, and to ponder on it. And our goal is to be the doers of the Word. Bible Study Group is one of the tools to be rooted deeper in the Word. Asking questions, listening to others' perspective, and sharing life are parts of these groups. All is welcome to walk together in this wonderful journey of faith with Christ.
     `,
-      date: "Every thursday",
+      date: "Every Thursday",
       time: "7.30 PM",
       place: "Zoom meeting",
-      contact: "081533103107", 
-      person: "Mr. Marthin Pangaribuan, BS Leader"
+      contact: "081533103107",
+      person: "Mr. Marthin Pangaribuan, BS Leader",
     },
     {
       image: "./activity/",
@@ -62,11 +62,11 @@ const Page = () => {
       description: `"Your word is a lamp for my feet, a light on my path." (Psalm 119:105)
       The Word of God actively provides illumination, insight, direction, and guidance for our pilgrimage through a dark and sinful world. If we admit the significance of God's Word, then we should invest out time to read, to study, and to ponder on it. And our goal is to be the doers of the Word. Bible Study Group is one of the tools to be rooted deeper in the Word. Asking questions, listening to others' perspective, and sharing life are parts of these groups. All is welcome to walk together in this wonderful journey of faith with Christ.
     `,
-      date: "Every thursday",
+      date: "Every Thursday",
       time: "7.30 PM",
       place: "Zoom meeting",
-      contact: "081361339342", 
-      person: "Rev. Hembang Tambun, BS Leader"
+      contact: "081361339342",
+      person: "Rev. Hembang Tambun, BS Leader",
     },
     {
       image: "./activity/",
@@ -76,8 +76,8 @@ const Page = () => {
       place: "Zoom",
       description: `“Therefore go and make disciples of all nations…” (Matthew 20:19). We are called to be Christ's disciples, and He wants us to disciples others. A Christian disciple is a person who follows Jesus Christ and accepts and assists in the spreading of the good news of salvation through Him. We must become Christ's followers so that we can lead others to be His disciples. As a church, we are called “to equip his people for works of service, so that the body of Christ may be built up until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ” (Eph. 4:12-13). This is a class of teaching, sharing, discussing and praying.
     `,
-      person: "Rev. Hembang Tambun", 
-      contact: "081361339342"
+      person: "Rev. Hembang Tambun",
+      contact: "081361339342",
     },
     {
       image: "./activity/",
@@ -85,15 +85,15 @@ const Page = () => {
       description: `“For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." (John 3:16) In His boundless love, God desires that no one should perish, but that everyone should come to repentance. Beyond serving within the church and its members, we are also called to reach out and share the good news with unbelievers and marginalized communities. We are called to be His instruments of love and hope, extending His light even into the darkest corners of the world. Our outreach ministries include various programs such as the Tandam Hilir Preaching Point, Trinity Tamil Methodist Community (TTMC), Refugees Ministry, and reaching out to Unreached People Groups. Through these ministries, we strive to embody and share God's love, bringing hope to those who need it most.
       `,
       contact: "Mr. Hermansyah",
-      person: "081361701321"
+      person: "081361701321",
     },
     {
       image: "/activity/WomenFellowship.jpeg",
       title: "Women Fellowship",
       description: `“"For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." (John 3:16) In His boundless love, God desires that no one should perish, but that everyone should come to repentance. Beyond serving within the church and its members, we are also called to reach out and share the good news with unbelievers and marginalized communities. We are called to be His instruments of love and hope, extending His light even into the darkest corners of the world. Our outreach ministries include various programs such as the Tandam Hilir Preaching Point, Trinity Tamil Methodist Community (TTMC), Refugees Ministry, and reaching out to Unreached People Groups. Through these ministries, we strive to embody and share God's love, bringing hope to those who need it most.
       `,
-      contact: "Mr. Hermansyah",
-      person: "081361701321"
+      contact: "Ms. Elvi Solita Siahaan ",
+      person: "",
     },
   ];
 
@@ -133,7 +133,7 @@ const Page = () => {
         </h2>
         <div className="flex flex-col gap-10 px-8 py-10 md:px-20 lg:flex-row">
           <div className="rounded-xl flex-1 aspect-[4/3] overflow-hidden items-center justify-center">
-            <img src="/barcode.svg" className="w-full" />
+            <img src="/barcode.svg" className="w-full" alt="Recent Activity Image"/>
           </div>
           <div className="flex flex-col items-start justify-center flex-1 gap-8">
             <div>
