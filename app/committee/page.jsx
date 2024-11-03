@@ -6,7 +6,7 @@ import CardMember from "../components/CardMember";
 const page = () => {
   const committees = [
     {
-      image: "./avatar.jpg",
+      image: "./committee/HembangTambun.jpeg",
       name: "Rev. Hembang Tambunm, M.Th",
       position: "Pastor In Charge",
     },
@@ -96,7 +96,7 @@ const page = () => {
       position: "Worship & Music",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/Yacub.jpeg",
       name: "Mr. Yacub",
       position: "Property & Maintenance",
     },
