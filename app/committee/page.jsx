@@ -11,7 +11,7 @@ const page = () => {
       position: "Pastor In Charge",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/ParamithaSharaRajagukguk.jpeg",
       name: "GI. Paramitha Shara Rajagukguk, S.Th",
       position: "Pastor In Charge",
     },
@@ -46,19 +46,19 @@ const page = () => {
       position: "Associate Lay Leader",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/SunaryoSitopu.jpg",
       name: "Mr. Sunaryo Sitopu",
       position: "Secretary",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/JulianaHimawan.jpeg",
       name: "Mrs. Juliana Himawan",
       position: "Vice Secretary",
     },
     {
       image: "./committee/Erlisa.png",
       name: "Ms. Erlisa",
-      position: "Treasurer ",
+      position: "Treasurer",
     },
     {
       image: "./avatar.jpg",
@@ -66,7 +66,7 @@ const page = () => {
       position: "Membership & Evangelism Committee ",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/DebbieSilitonga.jpeg",
       name: "Ms. Debbie Silitonga",
       position: "Christian Education ",
     },
@@ -81,7 +81,7 @@ const page = () => {
       position: "Missions & Outreach",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/OclimSilitonga.jpeg",
       name: "Ms. Oclim Silitonga",
       position: "Social Concern",
     },
@@ -106,7 +106,7 @@ const page = () => {
       position: "Sunday School Superintendent",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/HubertHHutabarat.jpeg",
       name: "Mr. Hubert H. Hutabarat",
       position: "Men Fellowship",
     },
@@ -130,10 +130,10 @@ const page = () => {
   return (
     <div className="mt-20">
       <div className="flex flex-col items-center justify-center gap-20 my-32">
-        <h2 className="text-5xl font-bold text-center">
+        <h2 className="text-4xl text-center font-bold md:text-5xl">
           Pastoral and Board Members
         </h2>
-        <div className="grid w-3/4 gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid w-3/4 gap-12 p-5 md:p-0 md:grid-cols-2 lg:grid-cols-4">
           {committees.map((committee) => (
             <CardMember
               image={committee.image}

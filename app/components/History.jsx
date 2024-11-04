@@ -54,7 +54,11 @@ const History = () => {
     },
     {
       period: "Evangelistic  Activities",
-      desc: "Makan malam Alam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, doloremque! Nobis voluptate eius temporibus at totam id voluptatibus ab harum a quidem nisi quo, numquam est iure amet obcaecati pariatur quibusdam dolorum cupiditate sunt corporis soluta non et repellendus! Veritatis.",
+      desc: "Wesley Church has long dedicated its resources to extending God’s Kingdom, reflected in the active involvement of its members. Congregants have served in various roles, from the Official Board to Sunday school, where there has always been a strong teaching presence. Although choir directors were not always available, worship music has remained lively and uplifting, thanks to talented pianists and singers. In 1986, church members were grouped into “Neighborhood Groups” for Bible study and fellowship, later becoming “Fellowship Groups” under Rev. George Werner, fostering deeper community engagement. Today, six Fellowship Groups, each led by a Bible Study Group Leader, continue to gather for worship, Bible study, and prayer. || The church’s mission and evangelism efforts have evolved with new approaches. Since 2008, the Alpha Course has been instrumental, reaching students in nearby schools, the blind community, and local prisons, where it provides accessible introductions to the gospel. Wesley’s prison ministry has expanded to serve six local facilities through Bible studies, sermons, and celebrations. Since 2010, Tandem Hilir has been a focus of ministry with weekly Sunday services, Bible studies, English courses, and medical support for the community. Ministry for refugees in Medan began in 2013, offering fellowship, Bible study, and English lessons to those displaced from countries like Iran and Afghanistan. In 2014, Wesley Church also established the Trinity Tamil Preaching Point to provide a Tamil-language ministry for Medan’s Tamil community, emphasizing Bible study, home visits, and sermons. || These ministries underscore Wesley Church’s commitment to sharing the gospel, supporting vulnerable communities, and creating lasting connections across cultures.",
+    },
+    {
+      period: "Cross Cultural Ministry",
+      desc: "In October 1996 Wesley Methodist Church began to celebrate “mission month” during which emphasis was given to the missionary task of the church. Shortly after this the missions committee began various outreach endeavours – visiting GMI churches in Sidikalang and other areas for evangelistic and holistic ministry. Visits were made to Bengkalis and Stabat to see whether our talents could be used there. Becoming aware of unreachad peoples and that the coastal peoples of North Sumatra were such people, it was decided that we would begin an outreach ministry through teaching English and a medical clinic in an area near Belawan which was within easy reach from Medan. This was supported by the church Board under the leadership of dr. Yohan Pranata, Lay Leader, and Rev. Richard Daulay, pastor-in-charge. || A house was rented and after renovations were made (under the supervision of Ir.  Edwina Sianipar, Chairperson of the Missions Committee) in September 1999 the centre was opened. Furniture was donated by Wesley Methodist Church members, desks for pupils by PKMI-1 and teaching materials by Winfield. GI.  Andum Sutrisno lived on the premises. Nurse Naomi Sembiring was involved in running the clinic staffed by dr. Fase Laia, dr. Asina, dr.  Novita, dr. Dona Manurung, dr. Efraim Hutagalung in turn. Agustina Siahaan and Sarni were the earliest teachers. After a year GI. Andum Sutrisno was called to be Pastor-in-charge at Wesley (as Rev. Dr. Richard Daulay moved to take up the position of General Secretary of PGI). Uba Sitompul then lived on the premises, followed by Indra Perangin-angin until 1993 when GI. Hembang Tambun took up the challenge to be involved in this ministry. || In 1994 a second outreach centre was opened 5 km to the north in Terjun where Titin Ompusunggu was in charge of a computer centre. Computers were donated by members of Wesley church, and bicycles by Wesley members, members of GMI Medan Selatan and GMI Anugerah. Ani Ompusunggu and Elyahmen Saragih joined the teaching staff. School lessons were given to help pupils. GI. Pardamean Malau and Mitro Pakpahan worked in the computer centre. All workers underwent training for this special outreach ministry by the national organization, Terang Nusa. || Various students from STT GMI, Bandar Baru, also helped for short periods from time to time, gaining valuable experience of working in the community. Komisi Damai, consisting of representatives from supporting congregations was formed (to help financially and with advice) and in 1998 the work came under the local branch of Yayasan Sutera Delima, which undertook the day to day running of the ministry and the on-going training and development of workers. Eventually the centre in Belawan and the computer centre were closed as it was felt that operating these centres took too much time. Instead workers were equipped to engage in a ministry of setting up village libraries which gave them access to valuable statistics concerning the communities being reached, access to villages and standing in the community. Field workers continued to operate in two teams, Team Wesley and Team Damai, the former in the area Stabat to Pangkalan Brandan and the latter from Lubuk Pakam to Batubara. || The most recent evaluation of workers, undertaken at the beginning of October 2014, showed during January – September 2014, 454 people had heard a complete gospel presentation (134 of these from local believers), that there were 95 confessions of faith (45 of these being the result of evangelism by local believers), 32 had been baptized (30 of these by local believers), 35 were being discipled and trained (16 of these by local believers) and that there were 8 small groups meeting in homes (5 of these having been begun by local believers). || Although no members of Wesley are currently serving as field workers in this ministry, nevertheless many Wesley members are regular active supporters by prayer and in financial giving."
     },
     {
       period: "The Role Of M.Y.F. Of Wesley Methodist Church",
@@ -63,6 +67,10 @@ const History = () => {
     {
       period: "The Role Of W.S.C.S. Of Wesley Methodist Church",
       desc: "This Commission was formed in 1968 at the initiative of the late Mrs. Lilyana Kalimoen (Aunty Lim). By then, our worship services were held at Jalan Hang Tuah and our pastor was Rev. Denver Stone. It started with twenty-five members and has played active part in various programs of our church. ||  In every bazaar, the W.S.C.S. (Women Society for Christian Service) extended its strong backup to the program. It has played hosts to many fellowship gatherings and other functions. Wherever a woman’s finishing touch is required, the W.S.C.S. is present and ready to offer its assistance. Thanks to our heroines! Praise the Lord! Our W.S.C.S. is second to none.",
+    },
+    {
+      period: "Short History Of W.S.C.S.",
+      desc: "The Women Society for Christian Service (W.S.C.S.), established in 1958, has been a pillar of support and service within Wesley Church. Guided by dedicated advisers and organizers, including Miss Gusta A. Robinett, Mrs. Denver Stone, and Mrs. Warren Harbert, the society has a long history of leadership and fellowship among the women of the church. Notable past officers from the Jalan Hang Tuah congregation include Tan So Yen, Chong Siew Ing, and Juniarti Wijaya, while leaders from the Jalan Sultan Agung branch include Mrs. Jade Sanowi, Mrs. Carol Tarigan, and Mrs. Lotje Tjenaka. || Today, W.S.C.S. is known as the Methodist Women Fellowship, continuing its mission of Christian service, fellowship, and support for the church community. This transformation reflects the enduring commitment of Wesley’s women to nurture faith and foster unity in service",
     },
     {
       period: "Our “Old Gang",
@@ -92,7 +100,7 @@ const History = () => {
 
   const nextHistory = () => {
     return setCurHistoryIndex((prev) => {
-      if (prev == histories.length - 1) {
+      if (prev === histories.length - 1) {
         return prev;
       } else {
         return prev + 1;
@@ -140,7 +148,7 @@ const History = () => {
             <button
               onClick={prevHistory}
               className={`p-4 ${
-                curHistoryIndex == 0 ? "bg-gray-400" : "bg-red-700"
+                curHistoryIndex === 0 ? "bg-gray-400" : "bg-red-700"
               } rounded`}
             >
               <IoArrowBackOutline color="white" />
@@ -148,7 +156,7 @@ const History = () => {
             <button
               onClick={nextHistory}
               className={`p-4 ${
-                curHistoryIndex == histories.length - 1
+                curHistoryIndex === histories.length - 1
                   ? "bg-gray-400"
                   : "bg-red-700"
               } rounded`}

@@ -82,19 +82,19 @@ const Navbar = () => {
           {isOpen && (
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-zinc-900 text-white rounded-box z-[1] w-52 p-2 shadow right-0 mt-8"
+              className="menu menu-sm dropdown-content bg-zinc-900 text-white rounded-box z-[1] w-52 p-2 shadow right-0 mt-6"
             >
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/" className={pathname === "/" && "bg-red-700"}>Home</Link>
               </li>
               <li>
-                <Link href="/activities">Activities</Link>
+                <Link href="/activities" className={pathname === "/activities" && "bg-red-700"}>Activities</Link>
               </li>
               <li>
-                <Link href="/committee">Committee</Link>
+                <Link href="/committee" className={pathname === "/committee" && "bg-red-700"}>Committee</Link>
               </li>
               <li>
-                <Link href="/donation">Donation</Link>
+                <Link href="/donation" className={pathname === "/donation" && "bg-red-700"}>Donation</Link>
               </li>
             </ul>
           )}

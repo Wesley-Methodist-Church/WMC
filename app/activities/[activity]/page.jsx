@@ -33,21 +33,21 @@ const Page = () => {
         <p className="text-center">{description}</p>
         <div className="flex flex-col gap-4 md:flex-row">
           <div className="flex items-center gap-2">
-            <FaRegCalendarAlt size={40} />
+            <FaRegCalendarAlt size={30} />
             <div>
               <p className="font-semibold">{date}</p>
               <p className="font-semibold">{time}</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <SlLocationPin size={40} />
+            <SlLocationPin size={30} />
             <div>
               <p className="font-semibold">{place}</p>
               <p className="font-semibold">{room}</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <FaWhatsapp size={40} />
+            <FaWhatsapp size={30} />
             <a href={`https://wa.me/${contact}`} target="_blank">
               <p className="font-semibold">{contact}</p>
               <p className="font-semibold">{person}</p>

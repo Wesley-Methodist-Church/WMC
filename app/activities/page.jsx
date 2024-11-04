@@ -44,6 +44,10 @@ const Page = () => {
       description: `Church Choir is a ministry and fellowship for all Wesley Methodist Church members and friends whom have singing talent from God and want to serve through praise and worship our Lord. We have Choir practice every Saturday afternoon at 16.30 - 18.30 WIB. Please join us and for further information, please contact us.`,
     },
     {
+      image: "./activity/CedarsFellowship.jpeg",
+      title: "Cedars Fellowship",
+    },
+    {
       image: "./activity/",
       title: "Pabrik Tenun Bible Study Group",
       description: `"Your word is a lamp for my feet, a light on my path." (Psalm 119:105)
@@ -107,7 +111,7 @@ const Page = () => {
         <h2 className="text-4xl font-bold md:text-5xl md:mb-10">
           Our Activities
         </h2>
-        <div className="grid gap-8 p-8 md:grid-cols-2 lg:grid-cols-3 md:p-12 lg:w-3/4">
+        <div className="grid gap-8 p-10 md:grid-cols-2 lg:grid-cols-3 md:p-12 lg:w-3/4">
           {activities.map((activity, index) => {
             return (
               <CardActivity

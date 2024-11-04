@@ -1,7 +1,7 @@
 // Import modules
 import React from "react";
 
-// Commitee card component
+// Committee card component
 const CardMember = ({ image, name, position }) => {
   return (
     <div className="border shadow bg-base-100">
