@@ -16,7 +16,7 @@ const page = () => {
       position: "Pastor In Charge",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/MariatyYananto.jpeg",
       name: "Mrs. Mariaty Yananto, M.Div",
       position: "Pastor In Charge",
     },
@@ -91,7 +91,7 @@ const page = () => {
       position: "Pastor-Parish Relations Committee (PPRC)",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/JoyceTobing.jpeg",
       name: "Ms. Joyce Tobing",
       position: "Worship & Music",
     },
