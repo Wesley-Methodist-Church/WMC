@@ -9,6 +9,7 @@ const Values = () => {
       <div className="flex w-full mb-16">
         {/* Desktop Version */}
         <div className="hidden gap-8 md:grid md:grid-cols-2">
+          {/* to make the image on the left and text on the right */}
           {index % 2 === 0 ? (
             <>
               <div className="flex flex-col justify-center flex-1 min-h-40">
@@ -28,6 +29,7 @@ const Values = () => {
               </div>
             </>
           ) : (
+            // to make the image on the right and text on the left
             <>
               <div className="flex-1 relative aspect-[4/3]">
                 <Image

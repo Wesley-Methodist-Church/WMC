@@ -9,8 +9,10 @@ import React from "react";
 
 // Activity Page
 const Page = () => {
+  // Get search params
   const searchParams = useSearchParams();
 
+  // Get items from search params
   const image = searchParams.get("image");
   const title = searchParams.get("title");
   const date = searchParams.get("date");
@@ -33,25 +35,38 @@ const Page = () => {
         <p className="text-center">{description}</p>
         <div className="flex flex-col gap-4 md:flex-row">
           <div className="flex items-center gap-2">
-            <FaRegCalendarAlt size={30} />
-            <div>
-              <p className="font-semibold">{date}</p>
-              <p className="font-semibold">{time}</p>
-            </div>
+            {/* Display date and time if both are not null */}
+            {date && time && (
+              <>
+                <FaRegCalendarAlt size={30} />
+                <p className="font-semibold">{date}</p>
+                <p className="font-semibold">{time}</p>
+              </>
+            )}
           </div>
           <div className="flex items-center gap-2">
-            <SlLocationPin size={30} />
-            <div>
-              <p className="font-semibold">{place}</p>
-              <p className="font-semibold">{room}</p>
-            </div>
+            {/* Display place and room if both are not null */}
+            {place && room && (
+              <>
+                <SlLocationPin size={30} />
+                <div>
+                  <p className="font-semibold">{place}</p>
+                  <p className="font-semibold">{room}</p>
+                </div>
+              </>
+            )}
           </div>
           <div className="flex items-center gap-2">
-            <FaWhatsapp size={30} />
-            <a href={`https://wa.me/${contact}`} target="_blank">
-              <p className="font-semibold">{contact}</p>
-              <p className="font-semibold">{person}</p>
-            </a>
+            {/* Display contact and person if both are not null */}
+            {contact && person && (
+              <>
+                <FaWhatsapp size={30} />
+                <a href={`https://wa.me/${contact}`} target="_blank">
+                  <p className="font-semibold">{contact}</p>
+                  <p className="font-semibold">{person}</p>
+                </a>
+              </>
+            )}
           </div>
         </div>
       </div>

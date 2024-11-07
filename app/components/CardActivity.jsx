@@ -29,7 +29,7 @@ const CardActivity = ({
         </div>
         <Link
           href={{
-            pathname: link,
+            pathname: link,   // link is the name of the activity
             query: {
               image,
               title,

@@ -88,8 +88,8 @@ const Page = () => {
       title: "Missions & Outreach Ministry",
       description: `“For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." (John 3:16) In His boundless love, God desires that no one should perish, but that everyone should come to repentance. Beyond serving within the church and its members, we are also called to reach out and share the good news with unbelievers and marginalized communities. We are called to be His instruments of love and hope, extending His light even into the darkest corners of the world. Our outreach ministries include various programs such as the Tandam Hilir Preaching Point, Trinity Tamil Methodist Community (TTMC), Refugees Ministry, and reaching out to Unreached People Groups. Through these ministries, we strive to embody and share God's love, bringing hope to those who need it most.
       `,
-      contact: "Mr. Hermansyah",
-      person: "081361701321",
+      person: "Mr. Hermansyah",
+      contact: "081361701321",
     },
     {
       image: "/activity/WomenFellowship.jpeg",
@@ -137,7 +137,11 @@ const Page = () => {
         </h2>
         <div className="flex flex-col gap-10 px-8 py-10 md:px-20 lg:flex-row">
           <div className="rounded-xl flex-1 aspect-[4/3] overflow-hidden items-center justify-center">
-            <img src="/barcode.svg" className="w-full" alt="Recent Activity Image"/>
+            <img
+              src="/barcode.svg"
+              className="w-full"
+              alt="Recent Activity Image"
+            />
           </div>
           <div className="flex flex-col items-start justify-center flex-1 gap-8">
             <div>
