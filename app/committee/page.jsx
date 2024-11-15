@@ -36,7 +36,7 @@ const page = () => {
       position: "Board Advisory",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/DonaldSiahaan.jpeg",
       name: "Mr. Donald Siahaan",
       position: "Lay Leader",
     },
