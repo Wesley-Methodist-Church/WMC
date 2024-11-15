@@ -15,7 +15,7 @@ const Page = () => {
       description: `“"Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.” (Matthew 19:14). Jesus has a deep love for children and desires for them to know Him more. To support this, we offer Sunday School classes for infants up to children in the sixth grade, helping them to grow in their knowledge of Jesus and learn to follow Him. Classes are organized according to age or school grade, ensuring that each child receives teaching suited to their level. With the guidance of over 20 dedicated Sunday School teachers and assistants, children will have the opportunity to develop spiritually in a creative and joyful environment. The classes are as follows: Batila for children under 5 years, Grade 1-2, Grade 3-4, and Grade 5-6. This structure allows each child to thrive and grow closer to Jesus among supportive and caring mentors.`,
     },
     {
-      image: "/activity/TeenagerFellowship.jpeg",
+      image: "/activity/TeenagersFellowship.jpeg",
       title: "Teenagers Fellowship",
       date: "Every Sunday",
       place: "Wesley Methodist Church Medan",
@@ -46,42 +46,9 @@ const Page = () => {
     {
       image: "./activity/CedarsFellowship.jpeg",
       title: "Cedars Fellowship",
-    },
-    {
-      image: "./activity/",
-      title: "Pabrik Tenun Bible Study Group",
-      description: `"Your word is a lamp for my feet, a light on my path." (Psalm 119:105)
-
-      The Word of God actively provides illumination, insight, direction, and guidance for our pilgrimage through a dark and sinful world. If we admit the significance of God's Word, then we should invest out time to read, to study, and to ponder on it. And our goal is to be the doers of the Word. Bible Study Group is one of the tools to be rooted deeper in the Word. Asking questions, listening to others' perspective, and sharing life are parts of these groups. All is welcome to walk together in this wonderful journey of faith with Christ.
-    `,
-      date: "Every Thursday",
-      time: "7.30 PM",
-      place: "Zoom meeting",
-      contact: "081533103107",
-      person: "Mr. Marthin Pangaribuan, BS Leader",
-    },
-    {
-      image: "./activity/",
-      title: "Sultan Agung Bible Study Group",
-      description: `"Your word is a lamp for my feet, a light on my path." (Psalm 119:105)
-      The Word of God actively provides illumination, insight, direction, and guidance for our pilgrimage through a dark and sinful world. If we admit the significance of God's Word, then we should invest out time to read, to study, and to ponder on it. And our goal is to be the doers of the Word. Bible Study Group is one of the tools to be rooted deeper in the Word. Asking questions, listening to others' perspective, and sharing life are parts of these groups. All is welcome to walk together in this wonderful journey of faith with Christ.
-    `,
-      date: "Every Thursday",
-      time: "7.30 PM",
-      place: "Zoom meeting",
-      contact: "081361339342",
-      person: "Rev. Hembang Tambun, BS Leader",
-    },
-    {
-      image: "./activity/",
-      title: "Discipleship Class",
-      date: "Every Friday",
-      time: "19.30 WIB",
-      place: "Zoom",
-      description: `“Therefore go and make disciples of all nations…” (Matthew 20:19). We are called to be Christ's disciples, and He wants us to disciples others. A Christian disciple is a person who follows Jesus Christ and accepts and assists in the spreading of the good news of salvation through Him. We must become Christ's followers so that we can lead others to be His disciples. As a church, we are called “to equip his people for works of service, so that the body of Christ may be built up until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ” (Eph. 4:12-13). This is a class of teaching, sharing, discussing and praying.
-    `,
-      person: "Rev. Hembang Tambun",
-      contact: "081361339342",
+      description: `They bear fruit even when they are old; they are filled with vitality and have many leaves. (Psalms 92:14). Cedar is a famous tree of Lebanon. It is delicate, smooth, hard and durable. It's aroma has very high medicinal value. The temple of God in Jerusalem was made of cedar trees in the time of King Solomon. Because of its characteristics, the cedar has become a symbol of greatness, of nobility, of strength and of incorruptibility. We pray that the senior members of our church will be like cedar trees: bear fruit and filled vitality in their old age. If you are 60 or above, please join this fellowship.`,
+      person: "Ms. Eunice Lie",
+      contact: "08126468485",
     },
     {
       image: "./activity/",
@@ -94,10 +61,16 @@ const Page = () => {
     {
       image: "/activity/WomenFellowship.jpeg",
       title: "Women Fellowship",
-      description: `“"For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." (John 3:16) In His boundless love, God desires that no one should perish, but that everyone should come to repentance. Beyond serving within the church and its members, we are also called to reach out and share the good news with unbelievers and marginalized communities. We are called to be His instruments of love and hope, extending His light even into the darkest corners of the world. Our outreach ministries include various programs such as the Tandam Hilir Preaching Point, Trinity Tamil Methodist Community (TTMC), Refugees Ministry, and reaching out to Unreached People Groups. Through these ministries, we strive to embody and share God's love, bringing hope to those who need it most.
-      `,
-      contact: "Ms. Elvi Solita Siahaan ",
-      person: "",
+      description: "",
+      person: "Ms. Elvi Solita Siahaan ",
+      contact: "",
+    },
+    {
+      image: "/activity/MenFellowship.jpeg",
+      title: "Men Fellowship",
+      description: "",
+      person: "Mr. Hubert H. Hutabarat ",
+      contact: "",
     },
   ];
 

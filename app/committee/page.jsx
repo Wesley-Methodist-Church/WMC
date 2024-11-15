@@ -56,12 +56,12 @@ const page = () => {
       position: "Vice Secretary",
     },
     {
-      image: "./committee/Erlisa.png",
+      image: "./committee/Erlisa.jpeg",
       name: "Ms. Erlisa",
       position: "Treasurer",
     },
     {
-      image: "./avatar.jpg",
+      image: "./committee/BobManullang.jpeg",
       name: "Mr. Bob Manullang",
       position: "Membership & Evangelism Committee ",
     },
@@ -130,7 +130,7 @@ const page = () => {
   return (
     <div className="mt-20">
       <div className="flex flex-col items-center justify-center gap-20 my-32">
-        <h2 className="text-4xl text-center font-bold md:text-5xl">
+        <h2 className="text-4xl font-bold text-center md:text-5xl">
           Pastoral and Board Members
         </h2>
         <div className="grid w-3/4 gap-12 p-5 md:p-0 md:grid-cols-2 lg:grid-cols-4">
