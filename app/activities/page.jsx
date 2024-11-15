@@ -47,30 +47,30 @@ const Page = () => {
       image: "./activity/CedarsFellowship.jpeg",
       title: "Cedars Fellowship",
       description: `They bear fruit even when they are old; they are filled with vitality and have many leaves. (Psalms 92:14). Cedar is a famous tree of Lebanon. It is delicate, smooth, hard and durable. It's aroma has very high medicinal value. The temple of God in Jerusalem was made of cedar trees in the time of King Solomon. Because of its characteristics, the cedar has become a symbol of greatness, of nobility, of strength and of incorruptibility. We pray that the senior members of our church will be like cedar trees: bear fruit and filled vitality in their old age. If you are 60 or above, please join this fellowship.`,
-      person: "Ms. Eunice Lie",
-      contact: "08126468485",
+      people: ["dr. Yohan Pranata", "Ms. Eunice Lie"],
+      contacts: ["0811606518", "08126468485"],
     },
     {
       image: "./activity/",
       title: "Missions & Outreach Ministry",
       description: `“For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." (John 3:16) In His boundless love, God desires that no one should perish, but that everyone should come to repentance. Beyond serving within the church and its members, we are also called to reach out and share the good news with unbelievers and marginalized communities. We are called to be His instruments of love and hope, extending His light even into the darkest corners of the world. Our outreach ministries include various programs such as the Tandam Hilir Preaching Point, Trinity Tamil Methodist Community (TTMC), Refugees Ministry, and reaching out to Unreached People Groups. Through these ministries, we strive to embody and share God's love, bringing hope to those who need it most.
       `,
-      person: "Mr. Hermansyah",
-      contact: "081361701321",
+      people: ["Mr. Hermansyah"],
+      contacts: ["081361701321"],
     },
     {
       image: "/activity/WomenFellowship.jpeg",
       title: "Women Fellowship",
       description: "",
-      person: "Ms. Elvi Solita Siahaan ",
-      contact: "",
+      people: ["Ms. Elvi Solita Siahaan "],
+      contacts: [""],
     },
     {
       image: "/activity/MenFellowship.jpeg",
       title: "Men Fellowship",
       description: "",
-      person: "Mr. Hubert H. Hutabarat ",
-      contact: "",
+      people: ["Mr. Hubert H. Hutabarat "],
+      contacts: [""],
     },
   ];
 
@@ -96,8 +96,8 @@ const Page = () => {
                 room={activity.room}
                 place={activity.place}
                 description={activity.description}
-                contact={activity.contact}
-                person={activity.person}
+                contacts={activity.contacts}
+                people={activity.people}
                 link={`activities/${activity.title}`}
               />
             );

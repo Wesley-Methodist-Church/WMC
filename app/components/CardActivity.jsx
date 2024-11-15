@@ -13,8 +13,8 @@ const CardActivity = ({
   description,
   time,
   room,
-  contact,
-  person,
+  contacts,
+  people,
 }) => {
   return (
     <div className="shadow-xl card bg-base-100">
@@ -38,8 +38,8 @@ const CardActivity = ({
               description,
               time,
               room,
-              contact,
-              person,
+              contacts: JSON.stringify(contacts),
+              people: JSON.stringify(people)
             },
           }}
           className="flex items-center justify-center w-32 text-white bg-red-700 btn btn-red hover:bg-red-600"

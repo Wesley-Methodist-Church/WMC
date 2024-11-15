@@ -20,8 +20,10 @@ const Page = () => {
   const time = searchParams.get("time");
   const room = searchParams.get("room");
   const description = searchParams.get("description");
-  const contact = searchParams.get("contact");
-  const person = searchParams.get("person");
+  const contactString = searchParams.get("contacts");
+  const contacts = contactString ? JSON.parse(contactString) : [];
+  const peopleString = searchParams.get("people");
+  const people = peopleString ? JSON.parse(peopleString) : [];
 
   return (
     <div className="mt-20">
@@ -56,17 +58,17 @@ const Page = () => {
               </>
             )}
           </div>
-          <div className="flex items-center gap-2">
-            {/* Display contact and person if both are not null */}
-            {contact && person && (
-              <>
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-2">
+            {/* Display contact and people if both are not null */}
+            {contacts && people && people.map((person, i) => (
+              <div className="flex gap-2 items-center">
                 <FaWhatsapp size={30} />
-                <a href={`https://wa.me/${contact}`} target="_blank">
-                  <p className="font-semibold">{contact}</p>
+                <a href={`https://wa.me/${contacts[i]}`} target="_blank">
+                  <p className="font-semibold">{contacts[i]}</p>
                   <p className="font-semibold">{person}</p>
                 </a>
-              </>
-            )}
+              </div>
+            ))}
           </div>
         </div>
       </div>
