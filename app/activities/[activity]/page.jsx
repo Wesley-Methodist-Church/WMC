@@ -58,17 +58,19 @@ const Page = () => {
               </>
             )}
           </div>
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-2">
+          <div className="flex flex-col items-start gap-2 md:flex-row md:items-center">
             {/* Display contact and people if both are not null */}
-            {contacts && people && people.map((person, i) => (
-              <div className="flex gap-2 items-center">
-                <FaWhatsapp size={30} />
-                <a href={`https://wa.me/${contacts[i]}`} target="_blank">
-                  <p className="font-semibold">{contacts[i]}</p>
-                  <p className="font-semibold">{person}</p>
-                </a>
-              </div>
-            ))}
+            {contacts &&
+              people &&
+              people.map((person, i) => (
+                <div className="flex items-center gap-2">
+                  <FaWhatsapp size={30} />
+                  <a href={`https://wa.me/${contacts[i]}`} target="_blank">
+                    <p className="font-semibold">{contacts[i]}</p>
+                    <p className="font-semibold">{person}</p>
+                  </a>
+                </div>
+              ))}
           </div>
         </div>
       </div>

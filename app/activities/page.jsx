@@ -69,7 +69,7 @@ const Page = () => {
       image: "/activity/MenFellowship.jpeg",
       title: "Men Fellowship",
       description: "",
-      people: ["Mr. Hubert H. Hutabarat "],
+      people: ["Mr. Hubert H. Hutabarat"],
       contacts: [""],
     },
   ];
