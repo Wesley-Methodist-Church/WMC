@@ -21,9 +21,9 @@ export default function Home() {
       <Values />
       <Gap />
       <VisionMission />
-      <Gap />
-      <History />
-      <Gap />
+      {/* <Gap /> */}
+      {/* <History /> */}
+      {/* <Gap /> */}
       <Prayer />
     </div>
   );

@@ -123,8 +123,8 @@ const History = () => {
 
   return (
     <div className="box-border flex flex-col items-center px-10 my-5 md:px-40">
-      <h2 className="mb-16 text-4xl font-semibold text-center md:text-5xl">
-        History of Our Church
+      <h2 className="text-4xl font-bold text-center md:text-5xl mb-16">
+          HISTORY OF OUR CHURCH
       </h2>
       <div className="flex flex-col items-center gap-4 md:flex-row justify-content-center md:gap-10">
         <div className="flex flex-col flex-1 gap-4 md:gap-10">

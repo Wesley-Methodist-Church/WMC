@@ -52,6 +52,14 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link href="/history">
+              History
+              {pathname === "/history" && (
+                <div className="border border-slate-400 w-22"></div>
+              )}
+            </Link>
+          </li>
+          <li>
             <Link href="/donation">
               Donation
               {pathname === "/donation" && (
@@ -92,6 +100,9 @@ const Navbar = () => {
               </li>
               <li>
                 <Link href="/committee" className={pathname === "/committee" && "bg-red-700"}>Committee</Link>
+              </li>
+              <li>
+                <Link href="/history" className={pathname === "/history" && "bg-red-700"}>History</Link>
               </li>
               <li>
                 <Link href="/donation" className={pathname === "/donation" && "bg-red-700"}>Donation</Link>
