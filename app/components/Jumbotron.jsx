@@ -14,7 +14,7 @@ const Jumbotron = () => {
       {/* Content */}
       <div className="relative text-center">
         <h1 className="mb-2 text-2xl font-bold md:text-6xl">
-          WELCOME TO THE WESLEY
+          WELCOME TO WESLEY
         </h1>
         <h1 className="text-2xl font-bold md:text-6xl">
           METHODIST CHURCH MEDAN

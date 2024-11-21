@@ -11,7 +11,7 @@ const Prayer = () => {
 
         <div className="relative flex flex-col gap-8 px-12 md:gap-12">
           <h1 className="text-2xl font-bold text-white md:text-4xl">
-            Prayer Request / Counseling Personal
+            Prayer Request / Personal Counseling
           </h1>
 
           <a

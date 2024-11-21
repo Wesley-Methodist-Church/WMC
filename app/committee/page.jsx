@@ -7,7 +7,7 @@ const page = () => {
   const committees = [
     {
       image: "./committee/HembangTambun.jpeg",
-      name: "Rev. Hembang Tambunm, M.Th",
+      name: "Rev. Hembang Tambun, M.Th",
       position: "Pastor In Charge",
     },
     {
