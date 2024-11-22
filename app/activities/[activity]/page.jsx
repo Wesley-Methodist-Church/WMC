@@ -19,6 +19,7 @@ const Page = () => {
   const place = searchParams.get("place");
   const time = searchParams.get("time");
   const room = searchParams.get("room");
+  const verse = searchParams.get("verse");
   const description = searchParams.get("description");
   const contactString = searchParams.get("contacts");
   const contacts = contactString ? JSON.parse(contactString) : [];
@@ -34,6 +35,7 @@ const Page = () => {
         <h2 className="text-4xl font-bold text-white md:text-5xl">{title}</h2>
       </div>
       <div className="flex flex-col items-center gap-20 p-8 py-20 md:p-32">
+        <h4 className="text-2xl font-bold">{verse}</h4>
         <p className="text-center">{description}</p>
         <div className="flex flex-col gap-4 md:flex-row">
           <div className="flex items-center gap-2">

@@ -6,6 +6,7 @@ export { default as History } from "./History";
 export { default as Jumbotron } from "./Jumbotron";
 export { default as Navbar } from "./Navbar";
 export { default as Prayer } from "./Prayer";
+export { default as Upcoming } from "./Upcoming";
 export { default as Values } from "./Values";
 export { default as VisionMission } from "./VisionMission";
 export { default as Gap } from "./Gap";

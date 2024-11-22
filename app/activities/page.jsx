@@ -12,7 +12,9 @@ const Page = () => {
       place: "Wesley Methodist Church Medan",
       time: "08:30 - 10:00 WIB",
       room: "Joda Hall & Sunday School Classes",
-      description: `“"Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.” (Matthew 19:14). Jesus has a deep love for children and desires for them to know Him more. To support this, we offer Sunday School classes for infants up to children in the sixth grade, helping them to grow in their knowledge of Jesus and learn to follow Him. Classes are organized according to age or school grade, ensuring that each child receives teaching suited to their level. With the guidance of over 20 dedicated Sunday School teachers and assistants, children will have the opportunity to develop spiritually in a creative and joyful environment. The classes are as follows: Batila for children under 5 years, Grade 1-2, Grade 3-4, and Grade 5-6. This structure allows each child to thrive and grow closer to Jesus among supportive and caring mentors.`,
+      verse:
+        "“Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.” (Matthew 19:14).",
+      description: `Jesus has a deep love for children and desires for them to know Him more. To support this, we offer Sunday School classes for infants up to children in the sixth grade, helping them to grow in their knowledge of Jesus and learn to follow Him. Classes are organized according to age or school grade, ensuring that each child receives teaching suited to their level. With the guidance of over 20 dedicated Sunday School teachers and assistants, children will have the opportunity to develop spiritually in a creative and joyful environment. The classes are as follows: Batila for children under 5 years, Grade 1-2, Grade 3-4, and Grade 5-6. This structure allows each child to thrive and grow closer to Jesus among supportive and caring mentors.`,
     },
     {
       image: "/activity/TeenagersFellowship.jpeg",
@@ -21,8 +23,9 @@ const Page = () => {
       place: "Wesley Methodist Church Medan",
       time: "08:30 - 10:30 WIB",
       room: "Lilyana Hall",
-      description: `I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well. (Psalm 139:14).
-        The teenage years can be difficult for many, including in their spiritual life. They are considered 'too old' to join in Sunday School, but 'too young' to be in the Youth group. So, we provide Teenagers Fellowship to be a home where they can grow together in faith through Sunday Service, Bible Study group and other fellowship. Since their young age, they will truly know that they are precious in God's sight and they also learn to serve one another.`,
+      verse:
+        "I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well. (Psalm 139:14).",
+      description: `The teenage years can be difficult for many, including in their spiritual life. They are considered 'too old' to join in Sunday School, but 'too young' to be in the Youth group. So, we provide Teenagers Fellowship to be a home where they can grow together in faith through Sunday Service, Bible Study group and other fellowship. Since their young age, they will truly know that they are precious in God's sight and they also learn to serve one another.`,
     },
     {
       image: "/activity/MethodistYouthFellowship.jpeg",
@@ -31,8 +34,8 @@ const Page = () => {
       place: "Wesley Methodist Church Medan",
       time: "18:30 - 20:00 WIB",
       room: "Lilyana Hall",
-      description: `"For you have been my hope, Sovereign Lord, my confidence since my youth." (Psalm 71:5)
-        Full of energy, potentials, and innovative ideas are identic with young age. And it is a privilege to dedicate them all to the glory of God. The existence of Wesley Methodist Church is one of the evidences of it. By the grace of God, this church was started in 1958 through MYF. God used young people to fulfill His calling in the past, and He is still doing it now. We welcome all young people to join and experience God's love together in a warm, joyful and youthful environment. Let's grow together in obedience to God, to be His instruments of glory, like the motto of MYF: “Christ Above All”.`,
+      verse: `"For you have been my hope, Sovereign Lord, my confidence since my youth." (Psalm 71:5)`,
+      description: `Full of energy, potentials, and innovative ideas are identic with young age. And it is a privilege to dedicate them all to the glory of God. The existence of Wesley Methodist Church is one of the evidences of it. By the grace of God, this church was started in 1958 through MYF. God used young people to fulfill His calling in the past, and He is still doing it now. We welcome all young people to join and experience God's love together in a warm, joyful and youthful environment. Let's grow together in obedience to God, to be His instruments of glory, like the motto of MYF: “Christ Above All”.`,
     },
     {
       image: "/activity/ChurchChoir.jpeg",
@@ -46,15 +49,17 @@ const Page = () => {
     {
       image: "./activity/CedarsFellowship.jpeg",
       title: "Cedars Fellowship",
-      description: `They bear fruit even when they are old; they are filled with vitality and have many leaves. (Psalms 92:14). Cedar is a famous tree of Lebanon. It is delicate, smooth, hard and durable. It's aroma has very high medicinal value. The temple of God in Jerusalem was made of cedar trees in the time of King Solomon. Because of its characteristics, the cedar has become a symbol of greatness, of nobility, of strength and of incorruptibility. We pray that the senior members of our church will be like cedar trees: bear fruit and filled vitality in their old age. If you are 60 or above, please join this fellowship.`,
+      verse: `They bear fruit even when they are old; they are filled with vitality and have many leaves. (Psalms 92:14).`,
+      description: `Cedar is a famous tree of Lebanon. It is delicate, smooth, hard and durable. It's aroma has very high medicinal value. The temple of God in Jerusalem was made of cedar trees in the time of King Solomon. Because of its characteristics, the cedar has become a symbol of greatness, of nobility, of strength and of incorruptibility. We pray that the senior members of our church will be like cedar trees: bear fruit and filled vitality in their old age. If you are 60 or above, please join this fellowship.`,
       people: ["dr. Yohan Pranata", "Ms. Eunice Lie"],
       contacts: ["0811606518", "08126468485"],
     },
     {
       image: "./activity/",
       title: "Missions & Outreach Ministry",
-      description: `“For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." (John 3:16) In His boundless love, God desires that no one should perish, but that everyone should come to repentance. Beyond serving within the church and its members, we are also called to reach out and share the good news with unbelievers and marginalized communities. We are called to be His instruments of love and hope, extending His light even into the darkest corners of the world. Our outreach ministries include various programs such as the Tandam Hilir Preaching Point, Trinity Tamil Methodist Community (TTMC), Refugees Ministry, and reaching out to Unreached People Groups. Through these ministries, we strive to embody and share God's love, bringing hope to those who need it most.
-      `,
+      verse: `“For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." (John 3:16)`,
+      description:
+        "In His boundless love, God desires that no one should perish, but that everyone should come to repentance. Beyond serving within the church and its members, we are also called to reach out and share the good news with unbelievers and marginalized communities. We are called to be His instruments of love and hope, extending His light even into the darkest corners of the world. Our outreach ministries include various programs such as the Tandam Hilir Preaching Point, Trinity Tamil Methodist Community (TTMC), Refugees Ministry, and reaching out to Unreached People Groups. Through these ministries, we strive to embody and share God's love, bringing hope to those who need it most.",
       people: ["Mr. Hermansyah"],
       contacts: ["081361701321"],
     },
@@ -95,6 +100,7 @@ const Page = () => {
                 time={activity.time}
                 room={activity.room}
                 place={activity.place}
+                verse={activity.verse}
                 description={activity.description}
                 contacts={activity.contacts}
                 people={activity.people}

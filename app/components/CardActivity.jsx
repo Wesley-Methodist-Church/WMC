@@ -10,6 +10,7 @@ const CardActivity = ({
   date,
   place,
   link,
+  verse,
   description,
   time,
   room,
@@ -29,17 +30,18 @@ const CardActivity = ({
         </div>
         <Link
           href={{
-            pathname: link,   // link is the name of the activity
+            pathname: link, // link is the name of the activity
             query: {
               image,
               title,
               date,
               place,
+              verse,
               description,
               time,
               room,
               contacts: JSON.stringify(contacts),
-              people: JSON.stringify(people)
+              people: JSON.stringify(people),
             },
           }}
           className="flex items-center justify-center w-32 text-white bg-red-700 btn btn-red hover:bg-red-600"

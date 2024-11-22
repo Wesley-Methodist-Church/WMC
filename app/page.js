@@ -1,12 +1,11 @@
 // Importing components from './components/index.jsx' for centralized and easy access
 import {
-  About,
-  History,
   Jumbotron,
   Prayer,
   Values,
   VisionMission,
   Gap,
+  Upcoming,
 } from "./components";
 
 // Home Page
@@ -16,12 +15,13 @@ export default function Home() {
       <Jumbotron />
       {/* To make space between components */}
       <Gap />
-      {/* <About />
-      <Gap /> */}
+      <Upcoming />
+      <Gap />
+      {/* <Gap /> */}
       <Values />
       <Gap />
       <VisionMission />
-      {/* <Gap /> */}
+      <Gap />
       {/* <History /> */}
       {/* <Gap /> */}
       <Prayer />
