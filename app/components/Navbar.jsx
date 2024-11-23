@@ -60,9 +60,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/donation">
-              Donation
-              {pathname === "/donation" && (
+            <Link href="/offering">
+              Offering
+              {pathname === "/offering" && (
                 <div className="border border-slate-400 w-18"></div>
               )}
             </Link>
@@ -123,10 +123,10 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/donation"
-                  className={pathname === "/donation" && "bg-red-700"}
+                  href="/offering"
+                  className={pathname === "/offering" && "bg-red-700"}
                 >
-                  Donation
+                  Offering
                 </Link>
               </li>
             </ul>
