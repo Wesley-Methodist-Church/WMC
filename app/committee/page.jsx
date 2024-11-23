@@ -14,44 +14,38 @@ const page = () => {
       {
         image: "./committee/ParamithaSharaRajagukguk.jpeg",
         name: "GI. Paramitha Shara Rajagukguk, S.Th",
-        position: "Pastor In Charge",
+        position: "Associate Pastor",
       },
       {
         image: "./committee/MariatyYananto.jpeg",
         name: "Mrs. Mariaty Yananto, M.Div",
-        position: "Pastor In Charge",
+        position: "Associate Pastor",
       },
     ],
     advisory: [
       {
         image: "./board_advisory/AndjurkenTarigan.jpeg",
         name: "Mr. Andjurken Tarigan",
-        position: "Board Advisory",
       },
       {
         image: "./board_advisory/BennySirait.jpeg",
         name: "Mr. Benny Sirait",
-        position: "Board Advisory",
       },
       {
         image: "./avatar.jpg",
         name: "dr. Hendra Djuang",
-        position: "Board Advisory",
       },
       {
         image: "./board_advisory/YohanPranata.jpeg",
         name: "dr. Yohan Pranata",
-        position: "Board Advisory",
       },
       {
         image: "./board_advisory/TimothyYananto.jpeg",
-        name: "Timothy Yananto",
-        position: "Board Advisory",
+        name: "Mr. Timothy Yananto",
       },
       {
         image: "./board_advisory/KusnadiPhandi.jpeg",
-        name: "Kusnadi Phandi",
-        position: "Board Advisory",
+        name: "Mr. Kusnadi Phandi",
       },
     ],
     member: [
@@ -83,27 +77,27 @@ const page = () => {
       {
         image: "./committee/BobManullang.jpeg",
         name: "Mr. Bob Manullang",
-        position: "Membership & Evangelism Committee ",
+        position: "Chair of Membership & Evangelism Committee",
       },
       {
         image: "./committee/DebbieSilitonga.jpeg",
         name: "Ms. Debbie Silitonga",
-        position: "Christian Education ",
+        position: "Chair of Christian Education Committee",
       },
       {
         image: "./committee/EkunSiregar.jpeg",
         name: "Mr. Ekun Siregar",
-        position: "Finance & Stewardship Committee",
+        position: "Chair of Finance & Stewardship Committee",
       },
       {
         image: "./committee/Hermansyah.jpeg",
         name: "Mr. Hermansyah",
-        position: "Missions & Outreach",
+        position: "Chair of Missions & Outreach Committee",
       },
       {
         image: "./committee/OclimSilitonga.jpeg",
         name: "Ms. Oclim Silitonga",
-        position: "Social Concern",
+        position: "Chair of Social Concern Committee",
       },
       {
         image: "./committee/JefriSirait.jpeg",
@@ -113,12 +107,12 @@ const page = () => {
       {
         image: "./committee/JoyceTobing.jpeg",
         name: "Ms. Joyce Tobing",
-        position: "Worship & Music",
+        position: "Chair of Worship & Music Committee",
       },
       {
         image: "./committee/Yacub.jpeg",
         name: "Mr. Yacub",
-        position: "Property & Maintenance",
+        position: "Chair of Property & Maintenance Committee",
       },
       {
         image: "./committee/ErlinaTeguh.jpeg",
@@ -128,22 +122,22 @@ const page = () => {
       {
         image: "./committee/HubertHHutabarat.jpeg",
         name: "Mr. Hubert H. Hutabarat",
-        position: "Men Fellowship",
+        position: "President of Men Fellowship",
       },
       {
         image: "./committee/ElviSolitaSiahaan.jpeg",
         name: "Ms. Elvi Solita Siahaan",
-        position: "Women Fellowship",
+        position: "President of Women Fellowship",
       },
       {
         image: "./avatar.jpg",
         name: "Ms. Miranda Elizabeth Marpaung",
-        position: "Methodist Youth Fellowship (MYF)",
+        position: "President of Methodist Youth Fellowship (MYF)",
       },
       {
         image: "./avatar.jpg",
         name: " Mr. Marvel Diovan Siahaan",
-        position: "Teenagers Fellowship",
+        position: "President of Teenagers Fellowship",
       },
     ],
   };
@@ -166,15 +160,11 @@ const page = () => {
       </div>
       <div className="flex flex-col items-center justify-center gap-20 my-32">
         <h2 className="text-4xl font-bold text-center md:text-5xl">
-          Board Advisory
+          Advisory Board
         </h2>
         <div className="grid w-3/4 gap-12 p-5 md:p-0 md:grid-cols-2 lg:grid-cols-3">
           {committees.advisory.map((committee) => (
-            <CardMember
-              image={committee.image}
-              name={committee.name}
-              position={committee.position}
-            />
+            <CardMember image={committee.image} name={committee.name} />
           ))}
         </div>
       </div>
