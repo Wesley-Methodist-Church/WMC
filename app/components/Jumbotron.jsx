@@ -13,13 +13,13 @@ const Jumbotron = () => {
 
       {/* Content */}
       <div className="relative text-center">
-        <h1 className="mb-2 text-2xl font-bold md:text-6xl">
+        <h1 className="mb-2 text-4xl font-bold md:text-6xl">
           WELCOME TO WESLEY
         </h1>
-        <h1 className="text-2xl font-bold md:text-6xl">
+        <h1 className="text-4xl font-bold md:text-6xl">
           METHODIST CHURCH MEDAN
         </h1>
-        <p className="mt-4 md:text-xl">We are glad to have you here.</p>
+        <p className="mt-4 md:text-2xl">We are glad to have you here.</p>
       </div>
     </div>
   );
