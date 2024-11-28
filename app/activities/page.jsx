@@ -110,7 +110,7 @@ const Page = () => {
           })}
         </div>
       </div>
-      <div className="gap-10 my-32">
+      {/* <div className="gap-10 my-32">
         <h2 className="mb-10 text-4xl font-bold text-center md:text-5xl">
           Recent Activity
         </h2>
@@ -146,7 +146,7 @@ const Page = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
