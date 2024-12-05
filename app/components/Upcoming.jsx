@@ -9,8 +9,8 @@ const Upcoming = () => {
       </h2>
 
       <div className="flex flex-col items-center justify-center gap-8 md:flex-row">
-        <Image src={"/flyer/flyer-1.jpg"} width={360} height={640} />
-        <Image src={"/flyer/flyer-2.jpg"} width={360} height={640} />
+        <Image src={"/flyer/flyer-1.jpeg"} width={360} height={640} />
+        <Image src={"/flyer/flyer-2.jpeg"} width={360} height={640} />
       </div>
     </div>
   );
