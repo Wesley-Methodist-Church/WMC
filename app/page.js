@@ -17,13 +17,10 @@ export default function Home() {
       <Gap />
       <Upcoming />
       <Gap />
-      {/* <Gap /> */}
       <Values />
       <Gap />
       <VisionMission />
       <Gap />
-      {/* <History /> */}
-      {/* <Gap /> */}
       <Prayer />
     </div>
   );
