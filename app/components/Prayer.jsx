@@ -15,7 +15,7 @@ const Prayer = () => {
           </h1>
 
           <a
-            href="mailto:wesleymedan@gmail.com?subject=Prayer Request"
+            href="mailto:wesleymcmedan@gmail.com?subject=Prayer Request"
             className="px-8 py-4 font-semibold text-red-600 bg-white rounded-xl w-fit"
           >
             Make A Request
